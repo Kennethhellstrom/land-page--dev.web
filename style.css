@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-light{
+    background-color:#999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    color: #fff;
+    height: 632px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.headline h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.headline p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.form{
+    margin-top: 100px;
+}
+
+.form .name,
+.form .email,
+.form .button
+{
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+
+
+
+.form .button{
+    background-color: #484d8d;
+}
+
+.customer-logo{
+    display: flex;
+    font-size: 23px;
+    font-weight: 200;
+    margin-top: 140px;
+}
+
+.customer-logo div{
+    margin-left: 40px;
+}
+
+
+.bg-dark{
+    background-color:#ccc;
+    color: #000;
+    height: 632px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.platform-head{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.platform-features{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+}
+
+.platform-feature{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.platform-icon{
+    width: 85px;
+    height: 65px;
+    text-transform: uppercase;
+    border: 1px solid #999;
+    border-radius: 80px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+
+.about-us-head{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.about-us-header{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.about-us-text{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.about-us-img{
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 300px;
+}
+
+
+.how-it-works{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+
+.how-it-works-head{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-left: 90px;
+}
+
+.how-it-works-header{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.how-it-works-text{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.how-it-works-video{
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+}
+
+.what-say{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.what-say-header{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.what-say-text{
+    width: 700px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.what-say-ceo{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.what-say-images{
+    display: flex;
+    margin: 50px;
+}
+
+.what-say-images div{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.what-say-images div:hover{
+    border: 1px solid #3b3b88;
+    color: #3b3b88;
+}
+
+.get{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-touch h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.get-touch p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+
+
+.footerl{
+    border-top: 1px solid #000;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
